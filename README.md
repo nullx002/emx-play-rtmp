@@ -11,3 +11,10 @@ this package is not in melpa. you have to download zip folder from repository an
 `M-x play-rtmp RET URL`
 
 `M-x www-play-rtmp` - when on url or anchor
+
+### default keybindings:
+---
+
+`<f9> z` - play media/stream with vlc player directly from emacs. some internet radio streams use rtmp format to transmit.
+
+`<f9> Z` - when in w3m/browser: anchor, point, url. put point/cursor on stream url and press '<f9> Z' to play stream in vlc. 
